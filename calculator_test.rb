@@ -19,4 +19,9 @@ class TestTddCalc < Minitest::Test
         assert_equal(0, sub_num(2, 2))
         assert_equal(3, sub_num(10, 7))
     end
+
+    def test_that_multiply_func_multiplies
+        assert_equal(6, mult_num(3, 2))
+        assert_equal(15, mult_num(5, 3))
+    end
 end
