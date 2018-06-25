@@ -27,6 +27,6 @@ class TestTddCalc < Minitest::Test
 
     def test_that_divide_finc_divides
         assert_equal(3, divide_num(15, 5))
-        assert_equal(50, divide_num(10, 5))
+        assert_equal(2, divide_num(10, 5))
     end
 end
