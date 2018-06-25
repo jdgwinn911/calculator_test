@@ -9,4 +9,9 @@ class TestTddCalc < Minitest::Test
     def test_one_plus_one_is_two
         assert_equal(2, add_num(1, 1))
     end
+
+    def test_assert_that_add_func_adds
+        assert_equal(3, add_num(1, 2))
+        assert_equal(7, add_num(3, 4))
+    end
 end
