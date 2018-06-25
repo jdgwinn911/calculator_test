@@ -17,4 +17,6 @@ def add_num(a, b)
     a+b
 end
 
+def sub_num(a, b)
+end
    
