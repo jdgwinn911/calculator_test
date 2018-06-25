@@ -29,4 +29,11 @@ class TestTddCalc < Minitest::Test
         assert_equal(3, divide_num(15, 5))
         assert_equal(2, divide_num(10, 5))
     end
+
+    def test_that_input_is_integer
+        assert_equal(false, add_num(3, "3"))
+        assert_equal(false, sub_num(3, "3"))
+        assert_equal(false, mult_num(3, "3"))
+        assert_equal(false, divide_num(3, "3"))
+    end
 end
